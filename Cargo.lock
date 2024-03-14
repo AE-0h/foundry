@@ -3143,8 +3143,7 @@ dependencies = [
 [[package]]
 name = "foundry-block-explorers"
 version = "0.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a056d4aa33a639c0aa1e9e473c25b9b191be30cbea94b31445fac5c272418ae"
+source = "git+https://github.com/Breakthrough-Labs/block-explorers#7743f291339a177c014353ccfb43d186b141c993"
 dependencies = [
  "alloy-chains",
  "alloy-json-abi",
@@ -3293,8 +3292,7 @@ dependencies = [
 [[package]]
 name = "foundry-compilers"
 version = "0.3.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1cc03b422b28e49d6dd61b8442bcee16c22edd975be1764de5a39c4037ecb478"
+source = "git+https://github.com/Breakthrough-Labs/cookbook-compiler-testing#a6ae81c7815b21c0682b51286d3374693f5cdc14"
 dependencies = [
  "alloy-json-abi",
  "alloy-primitives",

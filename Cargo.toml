@@ -213,7 +213,9 @@ hyper = "0.14"
 tower = "0.4"
 tower-http = "0.4"
 
-# [patch.crates-io]
+[patch.crates-io]
+foundry-block-explorers = { git = "https://github.com/Breakthrough-Labs/block-explorers" }
+foundry-compilers = { git = "https://github.com/Breakthrough-Labs/cookbook-compiler-testing" }
 # revm = { path = "../../danipopes/revm/crates/revm" }
 # revm-interpreter = { path = "../../danipopes/revm/crates/interpreter" }
 # revm-primitives = { path = "../../danipopes/revm/crates/primitives" }
