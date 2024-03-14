@@ -3292,7 +3292,7 @@ dependencies = [
 [[package]]
 name = "foundry-compilers"
 version = "0.3.11"
-source = "git+https://github.com/Breakthrough-Labs/cookbook-compiler-testing#a6ae81c7815b21c0682b51286d3374693f5cdc14"
+source = "git+https://github.com/Breakthrough-Labs/cookbook-compiler-testing#61bf166bd04882fef483eac4f22f3d2943aef658"
 dependencies = [
  "alloy-json-abi",
  "alloy-primitives",
